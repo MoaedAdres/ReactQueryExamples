@@ -1,0 +1,14 @@
+
+
+
+/ tan stack react query
+
+in useQuery (v5):
+is loading :the old loading behivor the first time we hit the request it's true and the second time false
+is fetching : true every time the request the hitted
+is pending : if The query has no data yet it's true else it's false
+
+------------------------------------------------------------
+in useMutate (v5):
+is pending : The mutation is currently running
+isIdle : The mutation is currently idle or in a fresh/reset state
